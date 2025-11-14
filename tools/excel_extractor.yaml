@@ -1,0 +1,26 @@
+description:
+  human:
+    en_US: Extract text and images embedded in Excel spreadsheets (.xlsx/.xls)
+    zh_Hans: 将 Excel (.xlsx/.xls) 表格中的文本与嵌入图片提取出来
+  llm: A tool that extracts text and images from Excel workbooks (.xlsx/.xls)
+extra:
+  python:
+    source: tools/excel_extractor.py
+identity:
+  author: samanhappy
+  label:
+    en_US: Excel Extractor
+    zh_Hans: Excel 提取器
+  name: excel_extractor
+parameters:
+- form: llm
+  human_description:
+    en_US: Excel file (.xlsx or .xls) to extract text and images from
+    zh_Hans: 要提取文本和图片的 Excel 文件 (.xlsx 或 .xls)
+  label:
+    en_US: Excel Content
+    zh_Hans: Excel 内容
+  llm_description: Excel file content (.xlsx/.xls) to be extracted
+  name: excel_content
+  required: true
+  type: file

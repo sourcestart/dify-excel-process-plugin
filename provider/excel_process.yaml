@@ -1,0 +1,19 @@
+extra:
+  python:
+    source: provider/excel_process.py
+identity:
+  author: samanhappy
+  description:
+    en_US: Tools for extracting text and images from Excel spreadsheets (.xlsx/.xls)
+    pt_BR: Ferramentas para extrair texto e imagens de planilhas Excel (.xlsx/.xls)
+    zh_Hans: 用于提取 Excel (.xlsx/.xls) 文本和图片的工具
+  icon: icon.svg
+  label:
+    en_US: Excel Process
+    pt_BR: Excel Process
+    zh_Hans: Excel 处理
+  name: excel_process
+  tags:
+  - utilities
+tools:
+- tools/excel_extractor.yaml
